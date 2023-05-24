@@ -13,6 +13,7 @@ public class filterConfig {
 
         registrationBean.setFilter(new new_filter());
         registrationBean.addUrlPatterns("/customers/*");
+
         return registrationBean;
     }
 }
